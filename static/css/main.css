@@ -1,0 +1,57 @@
+:root {
+  /* Set variables here */
+  --turqoise: #1abc9c;
+  --light-blue: #3498db;
+  --blue: #2484f3;
+  --purple: #9b59b6;
+  --soft-blue-purple: #657ae4;
+  --slate: #34495e;
+  --slate-black: #292b3c;
+  --matte-black: #303247;
+  --grey-black: #203956;
+  --black: #040509;
+  --yellow: #f1c40f;
+  --orange: #e67e22;
+  --red: #e74c3c;
+  --grey: #bdc3c7;
+  --green: #2ecc71;
+  --blue-green: #168085;
+  --grey-white: #e4e4e5;
+  --light-grey: #a5adc2;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 100%;
+
+  font-family: "Barlow", sans-serif;
+  color: white;
+  background-color: var(--blue);
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+
+  /* remove any margin or padding added by browser */
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  /* Override default bootstrap styling for nav */
+  /* border-bottom: 1px solid #dfdfdf; */
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+a.nav-link {
+  /* Override defualt font color in bootstrap nav */
+  color: white;
+}

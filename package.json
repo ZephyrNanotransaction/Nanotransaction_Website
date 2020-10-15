@@ -1,0 +1,17 @@
+{
+  "name": "nanotransaction_startup_site",
+  "version": "1.0.0",
+  "description": "Information site for CS 461 Nanotransaction Startup at OSU.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kyle Esquerra, Eric Lester, David Shoemaker, Michael Hathaway, and Nathan Jewell",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "handlebars": "^4.7.6"
+  }
+}
