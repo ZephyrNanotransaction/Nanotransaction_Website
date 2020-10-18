@@ -55,3 +55,11 @@ a.nav-link {
   /* Override defualt font color in bootstrap nav */
   color: white;
 }
+
+dropdown-item {
+  background-color: white;
+}
+
+li:hover:not(.active) {
+  background-color: var(--light-blue);
+}
