@@ -1,0 +1,15 @@
+.form-wrapper {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#email-collection-form {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input-container {
+  margin: 10px;
+}
