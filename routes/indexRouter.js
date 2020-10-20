@@ -18,7 +18,9 @@ router.get("/business", (req, res, next) => {
 
 // investor page route
 router.get("/investor", (req, res, next) => {
-  res.status(200).render("investor");
+  res.status(200).render("investor", {
+    js: ["email.js"],
+  });
 });
 
 // user page route
