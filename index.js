@@ -3,6 +3,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const path = require("path");
 const bodyParser = require("body-parser");
+const db = require("./db/nedb");
 
 // router imports
 const indexRouter = require("./routes/indexRouter");
@@ -41,6 +42,9 @@ app.use(logger);
     App Routing -  connect routers the app
 */
 app.use("/", indexRouter);
+
+db.load();
+
 
 // set function to respond to any unhandled GET request
 app.get("*", (req, res, next) => {
