@@ -7,6 +7,7 @@ const db = require("./db/nedb");
 
 // router imports
 const indexRouter = require("./routes/indexRouter");
+const emailRouter = require("./routes/emailRouter");
 
 // create new instance of express app and set port
 const app = express();
@@ -42,6 +43,7 @@ app.use(logger);
     App Routing -  connect routers the app
 */
 app.use("/", indexRouter);
+app.use("/email", emailRouter);
 
 db.load();
 
