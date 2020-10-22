@@ -32,6 +32,7 @@ emailCollectionForm.addEventListener("submit", async (e) => {
 
     // clear form values
     emailCollectionForm.reset();
+    $("#emailModal").modal("hide");
   } catch (err) {
     alert("Error: An error has occurred");
   }
