@@ -1,0 +1,40 @@
+<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="email modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Stay Updated!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="" id="email-collection-form" method="post" action="">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="firstname" placeholder="Firstname" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="lastname" placeholder="Lastname" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Who are you?</label>
+                        <select class="form-control" name="type" id="user-type" required>
+                            <option value="investor">Investor</option>
+                            <option value="consumer">Consumer</option>
+                            <option value="business">Business</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
