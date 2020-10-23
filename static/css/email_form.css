@@ -1,15 +1,10 @@
-.form-wrapper {
-  border: 2px solid black;
-  border-radius: 10px;
+.modal h5 {
+  color: black;
 }
 
 #email-collection-form {
-  padding: 20px;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.form-input-container {
-  margin: 10px;
+  background-color: aliceblue;
+  color: black;
+  padding: 30px;
+  border-radius: 5px;
 }
