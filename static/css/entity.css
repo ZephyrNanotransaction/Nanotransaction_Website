@@ -1,0 +1,17 @@
+.page-cta {
+    text-align: center;
+}
+
+.page-body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    margin: 10px;
+}
+
+.page-email {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}

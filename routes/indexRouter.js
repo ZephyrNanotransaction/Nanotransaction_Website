@@ -12,21 +12,28 @@ router.get("/", (req, res, next) => {
 });
 
 // business page route
+// user page route
 router.get("/business", (req, res, next) => {
-  res.status(200).render("business");
+  res.status(200).render("business", {
+    css: ["email_form.css", "entity.css"],
+    js: ["email.js"]
+  });
 });
 
 // investor page route
 router.get("/investor", (req, res, next) => {
   res.status(200).render("investor", {
-    css: ["email_form.css"],
+    css: ["email_form.css", "entity.css"],
     js: ["email.js"],
   });
 });
 
 // user page route
 router.get("/consumer", (req, res, next) => {
-  res.status(200).render("consumer");
+  res.status(200).render("consumer", {
+    css: ["email_form.css", "entity.css"],
+    js: ["email.js"]
+  });
 });
 
 // team page route
