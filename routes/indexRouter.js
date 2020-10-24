@@ -16,7 +16,8 @@ router.get("/", (req, res, next) => {
 router.get("/business", (req, res, next) => {
   res.status(200).render("business", {
     css: ["email_form.css", "entity.css"],
-    js: ["email.js"]
+    js: ["email.js"],
+    business: "selected"
   });
 });
 
@@ -25,6 +26,7 @@ router.get("/investor", (req, res, next) => {
   res.status(200).render("investor", {
     css: ["email_form.css", "entity.css"],
     js: ["email.js"],
+    investor: "selected"
   });
 });
 
@@ -32,7 +34,8 @@ router.get("/investor", (req, res, next) => {
 router.get("/consumer", (req, res, next) => {
   res.status(200).render("consumer", {
     css: ["email_form.css", "entity.css"],
-    js: ["email.js"]
+    js: ["email.js"],
+    consumer: "selected"
   });
 });
 
