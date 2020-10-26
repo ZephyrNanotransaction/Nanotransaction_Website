@@ -41,7 +41,10 @@ router.get("/consumer", (req, res, next) => {
 
 // team page route
 router.get("/team", (req, res, next) => {
-  res.status(200).render("team");
+  res.status(200).render("team", {
+    css: ["team.css"],
+    js: ["test.js"],
+  });
 });
 
 // demo page route
