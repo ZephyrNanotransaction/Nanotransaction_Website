@@ -7,7 +7,7 @@ const router = express.Router();
 router.get("/", (req, res, next) => {
   res.status(200).render("home", {
     css: ["home.css"],
-    js: ["test.js"],
+    js: ["email.js"],
   });
 });
 
