@@ -11,7 +11,7 @@ const emailRouter = require("./routes/emailRouter");
 
 // create new instance of express app and set port
 const app = express();
-const port = process.argv[2] || 3000;
+const port = process.env.PORT || 3000;
 app.set("port", port);
 
 // set body parser setting
