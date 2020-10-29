@@ -43,7 +43,7 @@ router.get("/consumer", (req, res, next) => {
 router.get("/team", (req, res, next) => {
   res.status(200).render("team", {
     css: ["team.css"],
-    js: ["test.js"],
+    js: ["email.js"],
   });
 });
 
