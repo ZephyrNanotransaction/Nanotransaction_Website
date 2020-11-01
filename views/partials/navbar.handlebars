@@ -1,21 +1,16 @@
-<ul class="nav justify-content-end">
-    <li class="nav-item">
-        <a class="nav-link" href="/">Home</a>
-    </li>
-    <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-            aria-expanded="false">Who are you?</a>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="/business">Businesses</a>
-            <a class="dropdown-item" href="/consumer">Consumers</a>
-            <a class="dropdown-item" href="/investor">Investors</a>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Zephyr</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="/team">Meet the Team</a>
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#emailModal">
+                Contact Us
+            </button>
         </div>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="/team">Meet the Team</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="/demo">Product Demo</a>
-    </li>
-</ul>
+    </div>
+</nav>
+{{>emailCollectionModal}}
