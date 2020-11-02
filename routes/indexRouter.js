@@ -7,7 +7,7 @@ const router = express.Router();
 router.get("/", (req, res, next) => {
   res.status(200).render("home", {
     css: ["home.css"],
-    js: ["email.js"],
+    js: [],
   });
 });
 
@@ -16,8 +16,8 @@ router.get("/", (req, res, next) => {
 router.get("/business", (req, res, next) => {
   res.status(200).render("business", {
     css: ["email_form.css", "entity.css"],
-    js: ["email.js"],
-    business: "selected"
+    js: [],
+    business: "selected",
   });
 });
 
@@ -25,8 +25,8 @@ router.get("/business", (req, res, next) => {
 router.get("/investor", (req, res, next) => {
   res.status(200).render("investor", {
     css: ["email_form.css", "entity.css"],
-    js: ["email.js"],
-    investor: "selected"
+    js: [],
+    investor: "selected",
   });
 });
 
@@ -34,8 +34,8 @@ router.get("/investor", (req, res, next) => {
 router.get("/consumer", (req, res, next) => {
   res.status(200).render("consumer", {
     css: ["email_form.css", "entity.css"],
-    js: ["email.js"],
-    consumer: "selected"
+    js: [],
+    consumer: "selected",
   });
 });
 
