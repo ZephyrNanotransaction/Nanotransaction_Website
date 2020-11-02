@@ -63,3 +63,19 @@ dropdown-item {
 li:hover:not(.active) {
   background-color: var(--light-blue);
 }
+
+.modal {
+  color: #000;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-image: linear-gradient(
+    to right,
+    var(--light-blue),
+    var(--blue),
+    var(--soft-blue-purple)
+  );
+  color: white;
+}
