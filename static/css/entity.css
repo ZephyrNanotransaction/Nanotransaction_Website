@@ -1,17 +1,19 @@
-.page-cta {
-    text-align: center;
-}
-
-.page-body {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    overflow: auto;
-    margin: 10px;
+.d-flex {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .page-email {
     text-align: center;
     width: 500px;
     margin: 0 auto;
+}
+
+.component .img-left {
+    margin-right: 10px;
+    float: left
+}
+
+.content-heading {
+    text-align: center;
 }
