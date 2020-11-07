@@ -11,7 +11,12 @@
 
 .component .img-left {
     margin-right: 10px;
-    float: left
+    float: left;
+}
+
+.component .img-right {
+    margin-left: 10px;
+    float: right;
 }
 
 .content-heading {

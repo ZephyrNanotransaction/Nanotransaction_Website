@@ -19,8 +19,8 @@ router.get("/business", (req, res, next) => {
     css: ["email_form.css", "entity.css"],
     js: [],
     business: "selected",
-    comp: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
-    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
+    comp: {image_pos: "left", image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
+    comp2: {image_pos: "right", image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
   });
 });
 
@@ -30,8 +30,8 @@ router.get("/investor", (req, res, next) => {
     css: ["email_form.css", "entity.css"],
     js: [],
     investor: "selected",
-    comp: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
-    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
+    comp: {image_pos: "left", image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
+    comp2: {image_pos: "right", image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
   });
 });
 
@@ -41,8 +41,8 @@ router.get("/consumer", (req, res, next) => {
     css: ["email_form.css", "entity.css"],
     js: [],
     consumer: "selected",
-    comp: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
-    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
+    comp: {image_pos: "left", image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
+    comp2: {image_pos: "right", image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
   });
 });
 
