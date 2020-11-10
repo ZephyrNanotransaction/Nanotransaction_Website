@@ -20,6 +20,11 @@
     float: left
 }
 
+.component * {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .container {
     padding: 2%;
     
