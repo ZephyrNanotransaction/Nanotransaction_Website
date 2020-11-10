@@ -3,6 +3,12 @@
     margin-right: 10%;
 }
 
+.page-header {
+    padding: 2%;
+    border: 3px;
+    border-style: hidden hidden solid hidden;
+}
+
 .page-email {
     text-align: center;
     width: 500px;
@@ -12,6 +18,11 @@
 .component .img-left {
     margin-right: 10px;
     float: left
+}
+
+.container {
+    padding: 2%;
+    
 }
 
 .content-heading {
