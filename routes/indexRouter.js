@@ -20,7 +20,8 @@ router.get("/business", (req, res, next) => {
     js: [],
     business: "selected",
     comp: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
-    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
+    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
+    img_comp: {image: "https://dummyimage.com/360x360/fff/aaa", height: "360px", caption: "Text/Caption"}
   });
 });
 
@@ -31,7 +32,8 @@ router.get("/investor", (req, res, next) => {
     js: [],
     investor: "selected",
     comp: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
-    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
+    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
+    img_comp: {image: "https://dummyimage.com/360x360/fff/aaa", height: "360px", caption: "Text/Caption"}
   });
 });
 
@@ -42,7 +44,8 @@ router.get("/consumer", (req, res, next) => {
     js: [],
     consumer: "selected",
     comp: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
-    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]}
+    comp2: {image: "https://dummyimage.com/360x360/fff/aaa", title: "Test Title", paragraph: [dummy_text, dummy_text, dummy_text]},
+    img_comp: {image: "https://dummyimage.com/360x360/fff/aaa", height: "360px", caption: "Text/Caption"}
   });
 });
 
